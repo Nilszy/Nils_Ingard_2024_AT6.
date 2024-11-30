@@ -1,0 +1,22 @@
+Description:
+UserInputValidator Class is designed to validate if a list 
+consists of positive integers. 
+First it is defined a method using the __init__method, 
+including pass, leaving it open for future use.
+
+Then there is defined a method called validate_positive_ingeters
+who uses self and input_list as parameters. 
+Self refering to the instance itself, input_list represents 
+a variable for the user of the method to input his data. 
+
+Valid_integers is a empty list, ready to recieve the returns 
+of the method function. 
+Then a for loop iterates thorugh the items in the input_list,
+checking with an if statement, ifthe items are digits 
+and positive integers.
+
+if item is valid, the append function puts the item into the 
+valid_integers list. 
+
+Then the return statement returns the items now stored in the
+valid_integers list, showing the potential valid integers found.
